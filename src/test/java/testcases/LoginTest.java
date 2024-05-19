@@ -34,5 +34,11 @@ public class LoginTest extends BaseClass{
 			login1.LoginFunction("test@gmail.com", "Raghu1234");
 		}
 	
+		
+		@Test
+		public void LoginSuccessTest1(){
+			LoginPage login1=new LoginPage();
+			login1.LoginFunction("test@gmail.com", "Raghu1234");
+		}
 	
 }
