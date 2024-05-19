@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testcases.LoginTest" time="67.925" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\SimpliLearn_Login_Test\target\test-classes;C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\SimpliLearn_Login_Test\target\classes;C:\Users\lenovo\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\lenovo\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\lenovo\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\lenovo\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\lenovo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\lenovo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\lenovo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\lenovo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\lenovo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire324625975697719056\surefirebooter-20240519201537283_3.jar C:\Users\lenovo\AppData\Local\Temp\surefire324625975697719056 2024-05-19T20-15-36_004-jvmRun1 surefire-20240519201537283_1tmp surefire_0-20240519201537283_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\SimpliLearn_Login_Test\target\test-classes;C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\SimpliLearn_Login_Test\target\classes;C:\Users\lenovo\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\lenovo\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\lenovo\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\lenovo\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\lenovo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\lenovo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\lenovo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\lenovo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\lenovo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\lenovo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\lenovo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\SimpliLearn_Login_Test"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire324625975697719056\surefirebooter-20240519201537283_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.20+9-LTS-256"/>
+    <property name="user.name" value="lenovo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.20"/>
+    <property name="user.dir" value="C:\Users\lenovo\Desktop\Trainings\Selenium\SeleniumProjects1\SimpliLearn_Login_Test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Trainings\Tools\apache-maven-3.9.6/bin;C:\Program Files\Java\jdk-11/bin;C:\Program Files\Java\jdk-11/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\lenovo\Desktop\Trainings\Sessions\Selenium\Tools\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Ant\apache-ant-1.10.13-bin\apache-ant-1.10.13\bin;C:\Gradle\gradle-8.0.2\bin;C:\Program Files\dotnet\;C:\Tomcat\apache-tomcat-8.5.61\apache-tomcat-8.5.61\bin\tomcat-native-2.0.6-win32-src\native\srclib\openssl;C:\Tomcat\apache-tomcat-8.5.61\apache-tomcat-8.5.61\bin\tomcat-native-2.0.6-win32-src\native\srclib\apr;C:\Program Files\openssl\bin;C:\Python27;C:\Python27\scripts;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-11\bin;D:\Allure\allure-2.27.0\allure-2.27.0\bin;C:\Apache24\bin;D:\Trainings\Tools\apache-maven-3.9.6\bin;C:\Users\lenovo\scoop\shims;C:\Users\lenovo\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\lenovo\AppData\Local\Programs\Python\Python312\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\GitHubDesktop\bin;C:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin;D:\Trainings\Tools\apache-maven-3.9.6\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.3\bin;;C:\Users\lenovo\AppData\Roaming\npm;D:\Allure\allure-2.27.0\allure-2.27.0\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.20+9-LTS-256"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="LogiFailureTest" classname="testcases.LoginTest" time="14.623">
+    <system-out><![CDATA[The email or password you have entered is invalid.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1716129944369	geckodriver	INFO	Listening on 127.0.0.1:41305
+1716129945111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileouzoij"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1716129946883	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1716129947350	Marionette	INFO	Listening on port 56280
+Read port: 56280
+1716129948399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+May 19, 2024 8:15:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1716129963284	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.simplilearn.com/user/login?redirect_url=https%3A%2F%2Flms.simplilearn.com%2F, line 843: unreachable code after return statement
+1716129966860	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://cfaccounts.simplilearn.com/core/js/utility.1715843369.js, line 71: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.simplilearn.com."
+JavaScript warning: https://accounts.simplilearn.com/user/login?redirect_url=https%3A%2F%2Flms.simplilearn.com%2F, line 843: unreachable code after return statement
+JavaScript warning: https://service.force.com/embeddedservice/5.0/frame/chasitor.esw.min.js, line 5: Script terminated by timeout at:
+e/<@https://service.force.com/embeddedservice/5.0/frame/chasitor.esw.min.js:5:68
+
+1716129972847	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://cfaccounts.simplilearn.com/core/js/utility.1715843369.js, line 71: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+]]></system-err>
+  </testcase>
+  <testcase name="LoginSuccessTest" classname="testcases.LoginTest" time="13.717">
+    <system-err><![CDATA[1716129974861	Marionette	INFO	Stopped listening on port 56280
+Dynamically enable window occlusion 1
+1716129978257	geckodriver	INFO	Listening on 127.0.0.1:31688
+1716129978288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rust_mozprofileKoID1O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1716129979344	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1716129979701	Marionette	INFO	Listening on port 56467
+Read port: 56467
+1716129980340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+May 19, 2024 8:16:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1716129991871	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://accounts.simplilearn.com/user/login?redirect_url=https%3A%2F%2Flms.simplilearn.com%2F, line 843: unreachable code after return statement
+1716129994919	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://cfaccounts.simplilearn.com/core/js/utility.1715843369.js, line 71: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.simplilearn.com."
+JavaScript warning: https://accounts.simplilearn.com/user/login?redirect_url=https%3A%2F%2Flms.simplilearn.com%2F, line 843: unreachable code after return statement
+JavaScript warning: https://service.force.com/embeddedservice/5.0/frame/chasitor.esw.min.js, line 5: Script terminated by timeout at:
+e/<@https://service.force.com/embeddedservice/5.0/frame/chasitor.esw.min.js:5:68
+
+1716130000895	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://cfaccounts.simplilearn.com/core/js/utility.1715843369.js, line 71: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+]]></system-err>
+  </testcase>
+</testsuite>
