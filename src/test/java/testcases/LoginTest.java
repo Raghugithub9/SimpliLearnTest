@@ -13,7 +13,7 @@ public class LoginTest extends BaseClass{
 	public void LogiFailureTest(){
 
 		LoginPage login=new LoginPage();
-		login.LoginFunction("test@gmail.com", "Raghu!299");
+		login.LoginFunction("testsdettraining@gmail.com", "RaghuPrasad!2");
 		WebElement ErrorMsg=driver.findElement(By.id("msg_box"));
 
 		String ActualMsg=ErrorMsg.getText();
